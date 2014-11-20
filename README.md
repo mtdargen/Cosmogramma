@@ -13,9 +13,9 @@ what's inside:
         * fileName = name of file to read from (string)
         * n = size of ngram to be constructed (int > 1)
         * start = symbol representing the beginning of a sentence in text file (string)
-          * "<s>" by default
+          * "&lt;s&gt;" by default
         * end = symbol representing the end of a sentence in text file (string)
-          * "<e>" by default
+          * "&lt;e&gt;" by default
           
       * getters and setters for n, start symbol, and end symbol
       * combined setter for start and end symbols (cosmogramma.set_symbols(start, end))
