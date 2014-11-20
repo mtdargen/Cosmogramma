@@ -29,7 +29,6 @@ class NGram:
             elif n == 4:
                 self.grams = zip(grams,grams[1:],grams[2:],grams[3:])
             else:
-                print("NOPE")
                 self.grams = []
                 #n outside of acceptable range
                 raise Exception
