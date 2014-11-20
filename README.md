@@ -7,6 +7,14 @@ what's inside:
   * cosmogramma.py
     * class NGram
     * Object that reads from a specified text file and generates sentences according to a specified n and start and end symbols.
+    
+    * Data Members:
+      * n - int - size of ngram
+      * ngrams - [[str]] - complete list of all ngrams taken from input file
+      * tokens - [str] - list of all tokens in input file
+      * start - str - start symbol
+      * end - str - end symbol
+  
     * Functions:
       *  cosmogramma.Cosmogramma(fileName, n, start="&lt;s&gt;", end ="&lt;e&gt;")
         * creates the object
