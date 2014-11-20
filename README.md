@@ -1,7 +1,7 @@
 Cosmogramma
 ========
 
-python library for easily constructing ngrams (n > 1) and building sentences from them
+python library for easily collecting ngrams from an input file, and constructing sentences with them.
 
 what's inside:
   * cosmogramma.py
